@@ -142,7 +142,3 @@ torch scikit-learn pandas matplotlib seaborn
 
 > Part 4 (LLM prompting) requires a Linux environment with a CUDA GPU (`bitsandbytes` 4-bit quantization is not supported on Windows). The notebook detects this automatically and skips that section outside Kaggle/Linux.
 
-## How to Run
-
-1. Install dependencies above.
-2. Run top to bottom on Kaggle (T4 GPU recommended) for the full pipeline including Part 4, or locally for Parts 1–3, 5, and 6 (Part 4 will be skipped with a message).
